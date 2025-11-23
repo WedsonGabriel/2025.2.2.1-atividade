@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 5px;
+}
+
+body{
+    background-color: #FFF4F2;
+    line-height: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Montserrat;
+    height: 30px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-family: roboto;
+    font-weight: 200px;
+    height: 50px;
+}
+
+h2{
+    text-align: center;
+    font-family: Roboto Mono;
+}
+
+h3{
+    text-align: center;
+    font-family: Roboto Mono;
+}
+
+
+
+.secao{
+    text-align: center;
+    font-family: Roboto;
+    padding: 5px;
+}
+
+
+.cor-nome {
+    background-color: red;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.cor-hex {
+    background-color: #3498db;
+}
+
+.cor-rgb {
+    background-color: rgb(46, 204, 113);
+}
+
+.cor-rgba {
+    background-color: rgba(155, 89, 182, 0.7);
+}
+
+.cor-hsl {
+    background-color: hsl(48, 89%, 60%);
+    border-radius: 0px 0px 20px 20px;
+}
+
+span{
+    font-size: 20px;
+    font-family: Roboto Mono;
+    font-weight: 700px ;
+    Padding: 5px;
+
+}
+.cor-primaria {
+    background-color: #B5838D;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.cor-secundaria {
+    background-color: #E5989B;
+}
+
+.cor-terciaria {
+    background-color: #6D6875;
+}
+
+.cor-acento {
+    background-color: #3E3C41;
+}
+
+.cor-neutra {
+    background-color: #FFF4F2;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.exemplo-tipografia{
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #E5989B;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.308) 0px 1px 2px 2px;
+    background-color:#B5838D
+}
+
+.exemplo-grid{
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #E5989B;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.308) 0px 1px 2px 2px;
+}
+
+.bg-cor{
+    background-color: #E5989B;
+}
+
+.bg-imagem{
+    background-image: url("https://img.freepik.com/vetores-gratis/aquarela-fundo-de-pessego-claro_23-2150268724.jpg?semt=ais_hybrid&w=740&q=80")
+}
+
+.bg-cover{
+    background-image: url("https://img.freepik.com/vetores-gratis/aquarela-fundo-de-pessego-claro_23-2150268724.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+}
+
+.bg-contain{
+    background-image: url("https://img.freepik.com/vetores-gratis/aquarela-fundo-de-pessego-claro_23-2150268724.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: contain;
+}
+
+.posicao-grid{
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #E5989B;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.308) 0px 1px 2px 2px;
+}
+
+.pos-item {
+    background-image: url("https://img.freepik.com/vetores-gratis/aquarela-fundo-de-pessego-claro_23-2150268724.jpg?semt=ais_hybrid&w=740&q=80");
+}
+
+.bg-pos-center{
+    background-position: center;
+}
+
+.bg-pos-top {
+    background-position: top;
+}
+
+.bg-pos-bottom {
+    background-position: bottom;
+}
+
+.bg-pos-left {
+    background-position: left;
+}
+
+.bg-pos-right {
+    background-position: right;
+}
+
+.gradientes-showcase{
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #E5989B;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.308) 0px 1px 2px 2px;
+}
+
+.grad-linear-2 {
+    background-image: linear-gradient(to right, #667eea, #764ba2)
+}
+
+.grad-linear-3 {
+    background-image: linear-gradient(to right, #f093fb, #f5576c, #ffd140)
+}
+
+.grad-linear-diagonal {
+    background-image: linear-gradient(45deg, #FA8BFF, #2BD2FF, #2BFF88)
+}
+
+.grad-radial {
+    background-image: radial-gradient(circle, #667eea, #764ba2)
+}
+
+.grad-complexo {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%)
+}
+
+.grad-radial-complexo {
+    background-image: radial-gradient(circle at top left, #FA8BFF, #2BD2FF, #2BFF88)
+}
+
+.card-exercicio{
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #E5989B;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.308) 0px 1px 2px 2px;
+}
+
+.exercicio-container{
+    line-height: 20px;
+}
+
+.btn-exercicio{
+    background-image: linear-gradient(to right, #eb9db2, #ef6094);
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.acesse{
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+.footer-principal{
+    text-align: center;
+    line-height: 10px;
+}
